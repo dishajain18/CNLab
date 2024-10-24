@@ -1,0 +1,16 @@
+udp_connect: bind/connect: Success
+udp_connect: bind/connect: Invalid argument
+udp_connect: bind/connect: Invalid argument
+Cisco Router Simulation Platform (version 0.2.23-x86/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Jul 27 2024 09:59:57
+
+Log file: writing to dynamips_i1_log.txt
+Console binding address set to localhost
+Hypervisor TCP control server started (IP 127.0.0.1 port 58239).
+NIO udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2: capturing to file '/home/cn2/GNS3/projects/Lab02_1/project-files/captures/PC1_Ethernet0_to_PGLab_Ethernet0.pcap'
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+NIO udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2: ending packet capture.
+Shutdown completed.

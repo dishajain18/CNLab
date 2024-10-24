@@ -1,0 +1,21 @@
+2024-08-01T09:49:36.416Z HYPERVISOR: Release 0.2.23-x86/Linux (tag 2023010200)
+2024-08-01T09:49:36.416Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58239.
+2024-08-01T09:49:36.420Z HYPERVISOR: exec_cmd: hypervisor version 
+2024-08-01T09:49:36.420Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/cn2/GNS3/projects/Lab02_1/project-files/dynamips 
+2024-08-01T09:49:36.420Z GENERAL: working_dir=/home/cn2/GNS3/projects/Lab02_1/project-files/dynamips
+2024-08-01T09:49:36.421Z HYPERVISOR: exec_cmd: ethsw create PGLab 
+2024-08-01T09:49:36.511Z HYPERVISOR: exec_cmd: nio create_udp udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2 10001 127.0.0.1 10000 
+2024-08-01T09:49:36.511Z HYPERVISOR: exec_cmd: ethsw add_nio PGLab udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2 
+2024-08-01T09:49:36.527Z HYPERVISOR: exec_cmd: ethsw set_access_port PGLab udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2 1 
+2024-08-01T09:49:36.553Z HYPERVISOR: exec_cmd: nio create_udp udp-92803dc3-038c-466a-8542-91876d94db01 10003 127.0.0.1 10002 
+2024-08-01T09:49:36.554Z HYPERVISOR: exec_cmd: ethsw add_nio PGLab udp-92803dc3-038c-466a-8542-91876d94db01 
+2024-08-01T09:49:36.567Z HYPERVISOR: exec_cmd: ethsw set_access_port PGLab udp-92803dc3-038c-466a-8542-91876d94db01 1 
+2024-08-01T09:49:36.670Z HYPERVISOR: exec_cmd: nio create_udp udp-273aa7c6-1ca0-4ed9-b795-0e44367e0cae 10008 127.0.0.1 10009 
+2024-08-01T09:49:36.670Z HYPERVISOR: exec_cmd: ethsw add_nio PGLab udp-273aa7c6-1ca0-4ed9-b795-0e44367e0cae 
+2024-08-01T09:49:36.688Z HYPERVISOR: exec_cmd: ethsw set_access_port PGLab udp-273aa7c6-1ca0-4ed9-b795-0e44367e0cae 1 
+2024-08-01T10:12:50.020Z HYPERVISOR: exec_cmd: nio bind_filter udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2 2 capture 
+2024-08-01T10:12:50.021Z HYPERVISOR: exec_cmd: nio setup_filter udp-1aa1b462-6d62-4b47-85d4-6e463ab154f2 2 en10mb /home/cn2/GNS3/projects/Lab02_1/project-files/captures/PC1_Ethernet0_to_PGLab_Ethernet0.pcap 
+2024-08-01T10:23:45.896Z HYPERVISOR: exec_cmd: ethsw delete PGLab 
+2024-08-01T10:23:45.954Z HYPERVISOR: exec_cmd: hypervisor stop 
+2024-08-01T10:23:46.414Z HYPERVISOR: Stopped.
+2024-08-01T10:23:46.415Z GENERAL: reset done.
